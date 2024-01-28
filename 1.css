@@ -320,8 +320,8 @@ h2{
 .imginfo{
     position: absolute;
     top: 20vh;
-    left: 20vw;
-    z-index: 1;
+    left: 40vw;
+    z-index: 9;
 }
 .l1{/*orissa*/
     position: absolute;
