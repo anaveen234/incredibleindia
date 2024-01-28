@@ -1,0 +1,479 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+a{
+    text-align: center;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.back1{
+    position: absolute;
+    width: 100vw;
+    height: 110vh;
+    border-radius: 0;
+    }
+.back2{
+    filter: blur(3px);
+}
+.btn{
+    background-color: transparent;
+    color: white;
+    font-size: 16pt;
+    border:none;
+}
+.btn1{
+    position: absolute;
+    top: 2vh;
+    width: 15vw;
+    height: 8vh;
+    background-color: white;
+    right: 2vh;
+    border-radius: 25px;
+    border: 3px solid rgb(252, 21, 149);
+    font-size: 14pt;
+}
+.btn2{
+    text-align: center;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 15pt;
+    top:42vh ;
+    left: 5vw;
+    width: 12vw;
+    height: 5vw;
+    border-radius: 0px;
+    background: linear-gradient(to bottom right,rgb(255, 42, 0),rgb(255, 106, 0));
+    color: black;
+    border: none;
+}
+.btn3{
+    top: 13vh;
+    right: 1vw;
+    position: absolute;
+    background-color: aliceblue;   
+    width: 10vh;
+    height: 10vh;
+    border-radius: 30px;
+}
+.btn4{
+    right: 2vw;
+    position: absolute;
+    width: 18vw;
+    border-radius: 30px;
+    border: 3px solid rgb(252, 21, 149);
+    height: 10vh;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.btn5{
+    position:relative;
+    left: 9vh;
+    width: 30vw;
+    height: 4vw;
+    border-radius: 30px;
+    background-color: #7e4c1a;
+    border: 2px solid white;
+    }
+.btn5:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+    }
+.btn6{
+    position: absolute;
+    width: 25vw;
+    top: 3vh;
+    left: 65vw;
+    color: white;
+    background-image: url(heritage.JPG);
+    
+    background-size: cover;
+    font-size: 16pt;
+}
+#b1{
+    position: absolute;
+    top:15vh ;
+}
+#b2{
+    position: relative;
+    height: 60vh;
+    width: 60vh;
+    top: -45vh;
+    right: -5vh;
+    border-radius: 300px;
+    transition: 0.9s ease-in;
+}
+#b2:hover{
+    right: 40vh; 
+}
+#b6{
+    position: absolute;
+    top:30vh ;
+}
+#b3{
+    position: absolute;
+    top:45vh ;
+}
+#b4{
+    position: absolute;
+    top:60vh ;
+}
+#b5{
+    position: absolute;
+    top:75vh ;
+}
+.circ{
+    overflow: visible;
+    position: absolute;
+    top: -5vh;
+    left: 60vw;
+    height: 70vh;
+    width: 70vh;
+    border-radius: 500px;
+    background-color: rgb(36, 16, 1);
+}
+.circ2{
+    overflow: hidden;
+    box-shadow: -3px 3px 6px 5px black;
+    position: absolute;
+    width: 18vh;
+    height: 18vh;
+    background-color: rgb(197, 102, 2);
+    border-radius: 100px;
+    transition: 1s;}
+  
+#c1{
+    right: 25vh;
+    top: -15vh;
+}
+#c1:hover,#c7:hover{
+    z-index: 1;
+    border-top-left-radius:500px ;
+    border-top-right-radius: 100px;
+    height: 15vh;
+    width:80vh;
+    overflow: visible;
+    right: -15vh;
+}
+#c2{
+    right: 45vh;
+    top: -10vh;
+}
+#c2:hover,#c3:hover,#c4:hover,#c5:hover,#c6:hover{
+    border-top-left-radius:900px ;
+    border-bottom-left-radius: 300px;
+    height: 15vh;
+    width:80vh;
+    z-index: 1;
+}
+#c3{
+    right: 60vh;
+    top: 6vh;
+}
+#c4{
+    right: 65vh;
+    top: 26vh;
+}
+#c5{
+    right: 60vh;
+    top: 46vh;
+}
+#c6{
+    right: 45vh;
+    top: 60vh;
+}
+#c7{
+    right: 25vh;
+    top: 65vh;
+}
+
+.hea{
+    color: white;
+    font-size: 48pt;  
+}
+.head{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 56pt;
+    font-weight: 200;
+    color: white;
+    left: 3vw;
+    top: 5vh;
+}
+.head2{
+    position: relative;
+    color: white;
+    font-size: 20pt;
+    font-family: sans-serif;
+    top: 10vh;
+    right: -40vh;
+    width: 10vh;
+    height: 50vh;
+}
+.head3{
+    position: relative;
+    font-size: 10pt;
+    top: 2vh;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+.head4{
+    font-size: 20pt;
+    color: black;
+    text-align: center;
+    font-weight: 200;
+    padding-bottom: 2vh;
+    line-height: 5vh;
+}
+#homeb{
+    position: fixed;
+    height: 10vh;
+    width: 10vh;
+    background-color: rgb(0, 0, 120);
+    border-radius: 40px;
+    bottom: 4vh;
+    right: 2vw;
+   z-index: 1;
+}
+#homeb:hover{
+    background-color: rgb(0, 0, 116);
+    bottom: 5vh;
+   box-shadow: -4px 4px 8px 8px rgb(10, 10, 10);
+}
+#homet{
+    color: white;
+   font-size: 36pt;
+}
+#h3,#h4{
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    position:absolute;
+    left: 18vh;
+    transition: 0s;
+    font-family: sans-serif;
+}
+#h4{
+    overflow: hidden;
+    bottom: 0;
+    left: 64vh;
+}
+#h5{
+    position: inherit;
+    right: 2vw;
+    bottom: 2vh;
+}
+h2{
+    color: rgb(13, 13, 13);
+    font-family: sans-serif;
+    font-size: 12pt;
+}
+.igwin{
+    position: absolute;
+    background-color: transparent;
+    height: 58vh;
+    width: 55vw;
+    top:35vh ;
+    left: 8vw;
+    border-radius: 20px;
+    border-left: 3px solid rgb(247, 149, 29);
+}
+#ind{
+    width: 50vw;
+    height: 85vh;
+    
+}
+
+.foodwin{
+    position: absolute;
+    border-left: none;
+    top: 20vh;
+    left: 2vh;
+}
+.loc{
+    position: absolute;
+    width: 10vh;
+    height: 7vh;
+    z-index: 2;
+}
+.imginfo{
+    position: absolute;
+    top: 20vh;
+    left: 0vw;
+    z-index: 1;
+   
+}
+.l1{/*orissa*/
+    position: absolute;
+    top: 38vh;
+    left: 35vw;
+}
+.l2{/*rajassthan*/
+    position: absolute;
+    top: 32vh;
+    left: 10vw;
+}
+.l3{/*up*/
+    position: absolute;
+    top: 28vh;
+    left: 22vw;
+}
+.l4{/*tn*/
+    position: absolute;
+    top: 60vh;
+    left: 36vw;
+}
+.l5{/*maharashtra*/
+    position: absolute;
+    top: 53vh;
+    left: 22vw;
+}
+.l6{/*delhi*/
+    position: absolute;
+    top: 26vh;
+    left: 15vw;
+}
+.l7{/*kerala*/
+    position: absolute;
+    top: 65vh;
+    left: 30vw;
+}
+.l8{/*mp*/
+    position: absolute;
+    top: 38vh;
+    left: 25vw;
+}
+.l9{/*assam*/
+    position: absolute;
+    top: 14vh;
+    left: 38vw;
+}
+.l10{/*ap*/
+    position: absolute;
+    top: 52vh;
+    left: 32vw;
+}
+
+.o{
+background-color: transparent;
+}
+
+.loc:hover{
+    height: 8vh;
+    
+}
+.pict{
+    position: absolute;
+    top: 0;
+    width: 35vw;
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.image{
+    background-size: cover;
+}
+
+.info{
+    overflow: hidden;
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    font-size: 13pt;
+    padding: 2vh;
+    left: 35vw;
+    width: 28vw;
+    height: 66vh;
+    background-color: rgb(215, 12, 12);
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    line-height: 3.5vh;
+    z-index: 1;
+    pointer-events: none;
+}
+#counteer{
+    position: absolute;
+border: 2px solid black;
+}
+#map{
+    position: absolute;
+    left: -2vw;
+    top: 2vw;
+}
+#section1{
+    height: 100%;
+    width: 100vw;
+    background: linear-gradient(to bottom right,#2f1e0d,rgba(151, 75, 0, 0.906));
+    position: absolute;
+    margin-top: 100vh;
+    }
+#section2{
+    margin: 0;
+    height: 100%;
+    width: 100vw;
+    
+    position: absolute;
+    margin-top: 200vh;    
+    z-index: 1; 
+}
+#mandala1{
+    position: absolute;
+    left: -20vw;
+    bottom: -20vh;
+}
+#sect2back{
+    position: absolute;
+    right: 0vw;
+    bottom: -1vh;
+    
+}
+.heriwin{
+    left: 50vw;
+    top: 12vh;
+    border: none;
+}
+#briha{
+    height: 50vh;
+    width: 50vh;
+    opacity: 0.7;
+}
+.sec2{
+    font-size: 36pt;
+}
+.subhe{
+    position: absolute;
+    font-size: 18pt;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: aliceblue;
+    top:20vh ;
+    left: 5vw;
+    width: 50vw;
+}
+.sec2sub{
+    left: -3vw;
+    z-index: 1;
+}
+
+.topul{
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-inline-start: auto;
+    top: 1vh;
+}
+.topli{
+    float: LEFT;
+    padding:30px;
+    padding-top: 2vh;
+}
